@@ -1,5 +1,5 @@
 #!/bin/sh
-version=1.3.2
+version=1.3.4
 arch=$(dpkg --print-architecture)
 codename=$(lsb_release --short --codename)
 if [[ $codename == 'bionic' ]]; then
